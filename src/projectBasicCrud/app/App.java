@@ -64,12 +64,12 @@ public class App {
 
 
 
-                    response = service.update(student) != null;
+                    response = service.update(student, Integer.parseInt(id)) != null;
                     situation = "Ocorreu uma falha na edição. Verifique o log";
                     iconStatus = JOptionPane.ERROR;
 
                     if (response){
-                        situation = "Exclusão realizada com sucesso";
+                        situation = "Edição realizada com sucesso";
                         iconStatus = JOptionPane.INFORMATION_MESSAGE;
                     }
 

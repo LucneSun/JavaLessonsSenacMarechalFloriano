@@ -131,30 +131,20 @@ public class StudentDAO extends DAO {
         return null;
     }
 
-    public Student update(Student student){
+    public Student update(Student student, int id){
     PreparedStatement pstmt = null;
-    ResultSet resultSet = null;
         try {
         conn = getConnection();
-        pstmt = conn.prepareStatement("update student set name = ?, email = ?, sex  = ?, registration = ? were name = ? and email = ? and sex = ? and registration = ?");
+        pstmt = conn.prepareStatement("update student set name = ?, email = ?, sex  = ?, registration = ? where id = ?");
         pstmt.setString(1, student.getName());
         pstmt.setString(2, student.getEmail());
         pstmt.setString(3, student.getSex());
         pstmt.setInt(4, student.getRegistration());
-        pstmt.setString(5, student.getName());
-        pstmt.setString(6, student.getEmail());
-        pstmt.setString(7, student.getSex());
-        pstmt.setInt(8, student.getRegistration());
+        pstmt.setInt(5, id);
 
-        var response = pstmt.executeQuery();
+
+        var response = pstmt.executeUpdate();
         Student student1 = new Student();
-
-        if(resultSet.next()){
-            student1.setName(resultSet.getString("name"));
-            student1.setSex(resultSet.getString("sex"));
-            student1.setRegistration(resultSet.getInt("registration"));
-            student1.setEmail(resultSet.getString("email"));
-        }
 
         return student1;
     }

@@ -28,8 +28,8 @@ public Student findById(int id){
     return dao.findById(id);
 }
 
-public Student update(Student student){
-    return (dao.update(student));
+public Student update(Student student, int id){
+    return (dao.update(student, id));
 }
 
 public boolean deleteAll(){

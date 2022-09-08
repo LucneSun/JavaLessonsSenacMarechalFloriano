@@ -5,19 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78ee2d6f-5932-4782-85c9-6ab7946ac283" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/mysql-connector-java-8.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/persist/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/persist/StudentDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/services/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/static/script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/structures/DecisionStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/structures/RepetitionStructure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/users/TechnicalStudent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectBasicCrud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projectBasicCrud.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/projectBasicCrud/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectBasicCrud/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projectBasicCrud/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectBasicCrud/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projectBasicCrud/persist/StudentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectBasicCrud/persist/StudentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projectBasicCrud/services/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectBasicCrud/services/StudentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
