@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78ee2d6f-5932-4782-85c9-6ab7946ac283" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectBasicCrud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/app/ControleFluxo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/mysql-connector-java-8.0.30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/persist/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/persist/StudentDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/services/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/static/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/structures/DecisionStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/structures/RepetitionStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectBasicCrud/users/TechnicalStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectBasicCrud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/projectBasicCrud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projectBasicCrud/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectBasicCrud/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projectBasicCrud/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projectBasicCrud/model/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +43,56 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/misak/IdeaProjects/projectBasicCrud/libs/mysql-connector-java-8.0.30.jar",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="Application.ControleFluxo">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\misak\IdeaProjects\projectBasicCrud\src\projectBasicCrud\static" />
+      <recent name="C:\Users\misak\IdeaProjects\projectBasicCrud\libs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.projectBasicCrud">
     <configuration name="ControleFluxo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="projectBasicCrud.app.ControleFluxo" />
       <module name="projectBasicCrud" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="projectBasicCrud.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DecisionStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projectBasicCrud.structures.DecisionStructure" />
+      <module name="projectBasicCrud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projectBasicCrud.structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RepetitionStructure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projectBasicCrud.structures.RepetitionStructure" />
+      <module name="projectBasicCrud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projectBasicCrud.structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -66,8 +107,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="projectBasicCrud.persist.DAO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="projectBasicCrud.persist.DAO" />
+      <module name="projectBasicCrud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projectBasicCrud.persist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.projectBasicCrud.persist.DAO" />
+        <item itemvalue="Application.RepetitionStructure" />
+        <item itemvalue="Application.DecisionStructure" />
         <item itemvalue="Application.ControleFluxo" />
       </list>
     </recent_temporary>

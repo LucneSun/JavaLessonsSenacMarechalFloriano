@@ -8,21 +8,28 @@ public class Student {
 
     String sex;
 
-    public void SetName(String name){
-        this.name = name;
-    }
 
-    public void SetEmail(String email){
+    public void setName(String name){this.name = name;}
+
+    public void setEmail(String email){
         this.email = email;
     }
 
-    public void SetRegistration(int registration){
+    public void setRegistration(int registration){
         this.registration = registration;
     }
 
-    public void SetSex(String sex){
+    public void setSex(String sex){
         this.sex = sex;
     }
+
+    public String getName(){return  this.name;}
+
+    public String getEmail(){return  this.email;}
+
+    public String getSex(){return  this.sex;}
+
+    public int getRegistration(){return this.registration;}
 
     public String Apresentation(){
         return "Ola! Meu nome eh:" + name + ", meu email eh:" + email + ", meu sexo eh:" + sex + ", minha matricula eh: " + registration + "...";
