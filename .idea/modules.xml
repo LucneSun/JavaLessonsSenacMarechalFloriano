@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/projectBasicCrud.iml" filepath="$PROJECT_DIR$/projectBasicCrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CollectibleStore.iml" filepath="$PROJECT_DIR$/CollectibleStore.iml" />
     </modules>
   </component>
 </project>
