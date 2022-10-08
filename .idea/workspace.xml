@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="17d783c4-0287-4e56-8e56-f4e7529a98ab" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_api_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/slf4j_jdk14_2_0_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
@@ -13,15 +16,37 @@
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/CollectibleStore.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/libs/mysql-connector-java-8.0.30.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/model/Provider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/model/enums/ProductType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/persist/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/persist/ProductDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/static/script.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collectiblestore/static/todo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/audio/GOLD.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/audio/INTERACT.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/audio/LOOP.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/buttons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/test.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/AppPanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/appstates/AppState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/appstates/IAppState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/appstates/Normal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/audio/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/input/MouseInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/ui/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/utils/AppState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/utils/ButtonType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/main/utils/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/model/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/model/StoredCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/model/enums/ProductType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/persist/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/persist/ProductDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/persist/StoredCharacterDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/service/StoredCharacterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/static/script.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/static/sunlogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sun/collectiblestore/static/todo" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +56,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
       </list>
@@ -53,19 +79,59 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/misak/IdeaProjects/CollectibleStore/libs/mysql-connector-java-8.0.30.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/misak/IdeaProjects/CollectibleStore/res/audio&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\res\audio" />
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\res" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\libs" />
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\res\audio" />
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\res" />
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore" />
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\src\collectiblestore\res\textures" />
+      <recent name="C:\Users\misak\IdeaProjects\CollectibleStore\src\collectiblestore\static" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="collectiblestore.model" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.com.sun.collectiblestore.main.Main">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sun.collectiblestore.main.App" />
+      <module name="CollectibleStore" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.sun.collectiblestore.main.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sun.collectiblestore.main.Main" />
+      <module name="CollectibleStore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sun.collectiblestore.main.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.com.sun.collectiblestore.main.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.sun.collectiblestore.main.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -92,10 +158,58 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/collectiblestore/persist/ProductDAO.java</url>
-          <line>148</line>
+        <breakpoint type="java-exception">
+          <properties class="java.lang.IllegalArgumentException" package="java.lang" />
           <option name="timeStamp" value="5" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.sql.SQLException" package="java.sql" />
+          <option name="timeStamp" value="23" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/main/appstates/Normal.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/main/ui/Button.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/persist/StoredCharacterDAO.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/persist/ProductDAO.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/persist/ProductDAO.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/model/Product.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/main/ui/Button.java</url>
+          <line>99</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/persist/ProductDAO.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sun/collectiblestore/main/ui/Button.java</url>
+          <line>287</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
