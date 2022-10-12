@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Collectible Store.iml" filepath="$PROJECT_DIR$/Collectible Store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collectiblestore.iml" filepath="$PROJECT_DIR$/collectiblestore.iml" />
     </modules>
   </component>
 </project>
