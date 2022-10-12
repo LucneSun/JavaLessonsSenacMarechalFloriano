@@ -1,0 +1,5 @@
+package main.utils;
+
+public enum ButtonType {
+    OPENCHARMANAGER, OPENSTOREMANAGER, OPENINVENTORY, OPENSTORE, ADDMONEY;
+}
